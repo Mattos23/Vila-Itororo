@@ -1,0 +1,62 @@
+
+
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+  .responsive-font-example {
+    font-size: 50px;
+  }
+}
+/* If the screen size is smaller than 1200px, set the font-size to 30px */
+@media (max-width: 1199.98px) {
+  .responsive-font-example {
+    font-size: 30px;
+  }
+}
+
+.meulogo {
+  display: block;
+  width: 210px ;
+  height: 70px ;
+  background-repeat: no-repeat;
+  background-position: 100 5px;
+  background-size: 60%;
+  background-image: url("Imagens/logosite.png");
+  transform: rotade (180%);
+
+}  
+
+
+ .Imagens{
+    display:inline-block;
+    background-color: gray;
+    width: 1900px;
+    height: 400px;
+    background-repeat: no-repeat;
+ }  
+
+
+.parallax {
+  background-image: url("Imagens/parallaxx.jpg");
+  min-height: 450px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+.coluna{border: solid 1px white;}
+        .A {height: 400px;
+            
+      }
+         
+
+
+    .left{     float: left;
+               margin: 0.5em 1em 0.5em 0;
+ 
+    }     
+
+
